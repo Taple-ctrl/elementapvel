@@ -1,0 +1,194 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Roboto;
+  z-index: 1;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  user-select: none;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.admin-inner{
+  display: flex;
+  width: 100%;
+}
+
+.box-setting{
+  width: 30%;
+  background: #4e54c8;
+  padding: 5vw 0;
+}
+
+.box-setting-tittle{
+  text-align: center;
+  color: white;
+  font: 3vw 'Gilroy', sans-serif;
+  font-weight: 800;
+}
+
+.box-setting-menu{
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  
+}
+
+.box-setting-menu-tittle{
+  color: white;
+  font: 3vw 'Gilroy', sans-serif;
+  font-weight: 500;
+}
+
+.box-setting-menu-nav{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.box-setting-menu-link{
+  cursor: pointer;
+  color: black;
+  font: 1.5vw 'Gilroy', sans-serif;
+  font-weight: 500;
+  transition: 0.5s all;
+  box-sizing: border-box;
+}
+
+.box-setting-menu-link:hover{
+  color: white;
+}
+
+.link-active{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.box-content{
+  width: 100%;
+}
+
+.box-content-mainS{
+  display: none;
+  height: 100%;
+  background: red;
+}
+
+.box-content-settingP{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.box-content-settingP-list{
+  display: flex;
+  gap: 1.5vw;
+  padding: 1vw;
+}
+
+.box-content-settingP-nav{
+  border: 1px solid black;
+  padding: 1vw;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.box-content-settingP-nav:hover{
+  background: black;
+  color: white;
+}
+
+.active-nav{
+  background: black;
+  color: white;
+}
+
+.list-portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw 0;
+}
+
+.portfolio-box{
+  display: flex;
+  flex-direction: column;
+
+  padding: 2vw;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+
+.portfolioID{
+  display: none;
+}
