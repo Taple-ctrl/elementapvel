@@ -27,7 +27,7 @@
             </div>
             <nav>
                 <ul class="navigation">
-                    <li><a class="active" href="index.html">Главная</a></li>
+                    <li><a class="active" href="#">Главная</a></li>
                     <li><a href="#services">Услуги</a></li>
                     <li><a href="#portfolio">Портфолио</a></li>
                     <li><a href="#aboutme">Обо мне</a></li>
@@ -104,24 +104,24 @@
         </div>
         <div class="container">
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Cat_plotting_something_evil%21.jpg">
-            <div class="card__head">Plotting Cat</div>
+            <img src="img/three-block/master-dental.jpg">
+            <div class="card__head">Master Dental</div>
           </div>
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/False_alarm_-a.jpg/1280px-False_alarm_-a.jpg">
-            <div class="card__head">Angry Cat</div>
+            <img src="img/three-block/comfort-sport.jpg">
+            <div class="card__head">Comfort Sport</div>
           </div>
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Neugierige-Katze.JPG/1280px-Neugierige-Katze.JPG">
-            <div class="card__head">Curious Cat</div>
+            <img src="img/three-block/cosmo.jpg">
+            <div class="card__head">Cosmo</div>
           </div>
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Al_acecho_%289272124788%29.jpg/1280px-Al_acecho_%289272124788%29.jpg">
-            <div class="card__head">Prowling Cat</div>
+            <img src="img/three-block/dr-harness.jpg">
+            <div class="card__head">Dr.Harness</div>
           </div>
           <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mimi%26Tigsi.jpg/1280px-Mimi%26Tigsi.jpg">
-            <div class="card__head">Sleepy Cat</div>
+            <img src="img/three-block/evklid.jpg">
+            <div class="card__head">Евклид</div>
           </div>
         </div>
         <div class="three-block-btn">

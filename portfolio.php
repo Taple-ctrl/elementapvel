@@ -27,7 +27,7 @@ require "db.php";
             </div>
             <nav>
                 <ul class="navigation">
-                    <li><a class="active" href="index.html">Вернуться</a></li>
+                    <li><a class="active" href="index.php">Вернуться</a></li>
                 </ul>
             </nav>
             <div class="header-btn">
@@ -56,7 +56,7 @@ require "db.php";
         </div>
     </div>
 
-    
+
     <div class="portfolio-list">
         <?php
             $portfoliolist = mysqli_query($mysqli, "SELECT * FROM `sites`");

@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 .admin-inner{
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 .box-setting{
@@ -88,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .box-setting-tittle{
   text-align: center;
   color: white;
-  font: 3vw 'Gilroy', sans-serif;
+  font: 2.5vw 'Gilroy', sans-serif;
   font-weight: 800;
 }
 
@@ -135,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .box-content{
   width: 100%;
+  overflow-y: auto;
 }
 
 .box-content-mainS{
@@ -183,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-box{
   display: flex;
   flex-direction: column;
-
+  gap: 2vw;
   padding: 2vw;
   border: 1px solid black;
   border-radius: 1vw;
@@ -191,4 +193,71 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolioID{
   display: none;
+}
+
+.portfolio-name{
+  color: black;
+  font: 1.6vw 'Gilroy', sans-serif;
+  font-weight: 800;
+  transition: 0.5s all;
+  box-sizing: border-box;
+}
+
+.portfolio-category{
+  font: 1.4vw 'Gilroy', sans-serif;
+  font-weight: 700;
+  transition: 0.5s all;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.descriptionPortfolio{
+  font: 1.4vw 'Gilroy', sans-serif;
+  font-weight: 600;
+  transition: 0.5s all;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.portfolio-btn{
+  padding: 2vw 4vw;
+  font: 1.4vw 'Gilroy', sans-serif;
+  font-weight: 700;
+  transition: 0.5s all;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+}
+
+.portfolio-btn-delete{
+  padding: 2vw 4vw;
+  font: 1.4vw 'Gilroy', sans-serif;
+  font-weight: 700;
+  transition: 0.5s all;
+  box-sizing: border-box;
+  color: red;
+}
+
+.add-portfolio{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-img{
+  width: 60vw;
+  height: 40vw;
+}
+
+.portfolio-name-add{
+  border: 1px solid black;
+}
+
+.portfolio-category-add{
+  border: 1px solid black;
+}
+
+.descriptionPortfolio-add{
+  border: 1px solid black;
 }
