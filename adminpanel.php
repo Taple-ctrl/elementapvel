@@ -96,7 +96,7 @@ require "db.php";
 	                            <input class="portfolio-name" name="namePortfolio" type="text" value="<?php echo $portf['name'] ?>">
 	                            <input class="portfolio-category" name="categoryPortfolio" type="text" value="<?php echo $portf['category'] ?>">
 	                            <textarea class="descriptionPortfolio" name="descriptionPortfolio" id="" cols="10" rows="5"><?php echo mb_substr($portf['description'],0,1000,'utf-8') ?></textarea>
-	                            <button class="portfolio-btn" type="submit" name="submit">Сохранить</button>
+	                            <button class="portfolio-btn" type="submit" name="submit">Редактировать</button>
 	                            <button class="portfolio-btn-delete" type="submit" name="delete">Удалить</button>
 	                        </form>
 			                <?php

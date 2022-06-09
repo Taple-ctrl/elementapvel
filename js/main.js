@@ -40,7 +40,6 @@ for (let anchor of anchors) {
 }
 
 // Кнопка наверх
-
 (function() {
   'use strict';
 
