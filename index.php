@@ -34,9 +34,9 @@
                     <li><a href="#kontact">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="header-btn">
+            <!-- <div class="header-btn">
                 <a  href="#">Написать мне</a>
-            </div>
+            </div> -->
         </div>
     </header>
     
@@ -73,7 +73,7 @@
                    Графический дизайн
                 </div>
                 <div class="two-block-box-subtittle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
+                    Выражение идей, смыслов и ценностей через образы, изображения, шрифты, видео и тп
                 </div>
             </div>
             <div class="two-block-box">
@@ -82,7 +82,7 @@
                    Веб дизайн
                 </div>
                 <div class="two-block-box-subtittle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
+                    Отрасль веб-разработки и разновидность дизайна, которая проектирует веб-интерфейсы
                 </div>
             </div>
             <div class="two-block-box">
@@ -91,7 +91,7 @@
                    Приложения
                 </div>
                 <div class="two-block-box-subtittle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
+                    Программа, для выполнения определённых задач и взаимодействие с пользователем
                 </div>
             </div>
         </div>
@@ -135,8 +135,8 @@
             <div class="about-inner">
                 <div class="about-inner-text">
                     <div class="about-inner-text-tittle">Обо мне</div>
-                    <div class="about-inner-text-subtittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.</div>
-                    <div class="about-inner-text-btn">Скачать CV</div>
+                    <div class="about-inner-text-subtittle">Занимаюсь Веб-разработкой различных сайтов от лендингов до интернет-магазинов. Берусь только за ту работу, в которой разбираюсь. Всегда остаюсь на связи и помогаю по возникающим вопросам, даже через несколько месяцев после сдачи заказа.</div>
+                    <div class="about-inner-text-btn"><a download href="img/cv.pdf">Скачать CV</a></div>
                 </div>
                 <div class="about-inner-img">
                     <img src="img/four-block/MyPhoto.jpg" alt="">
@@ -166,9 +166,9 @@
                 Давайте обсудим проект
             </div>
             <div class="six-block-call-subtittle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua.
+                Всегда лучше поговорить с заказчиком чем переписываться в мессенджерах,<br>любой звонок лучше убедит вас в моем проффесионализме.
             </div>
-            <div class="six-block-call-btn"><a href="#">Позвонить</a></div>
+            <div class="six-block-call-btn"><a href="tel:89524847154">Позвонить</a></div>
         </div>
     </div>
 

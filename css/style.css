@@ -513,12 +513,8 @@ header {
 
 .about-inner-text-btn{
   background: #615CFD;
-  color: #fff;
   display: inline-block;
   padding: 1.3vw 2.5vw;
-  font-family: "Muli", sans-serif;
-  font-size: 1vw;
-  font-weight: 500;
   border: 0;
   border: 1px solid transparent;
   -webkit-border-radius: 0px;
@@ -533,10 +529,21 @@ header {
   cursor: pointer;
 }
 
+.about-inner-text-btn a{
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  font-size: 1vw;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
 .about-inner-text-btn:hover{
   background: white;
-  color: #615CFD;
   border: 1px solid #615CFD;
+}
+
+.about-inner-text-btn:hover a{
+  color: #615CFD;
 }
 
 /*Пятый блок*/
