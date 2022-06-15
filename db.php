@@ -1,8 +1,8 @@
 <?php 
-$host = 'localhost';
-$db_name = 'elementpavel';
-$db_user = 'root';
-$db_pass = 'root';
+$host = 'sql210.epizy.com';
+$db_name = 'epiz_31812996_ElementPavel';
+$db_user = 'epiz_31812996';
+$db_pass = 'lAL2SCc2wZr';
 
 $mysqli = new mysqli($host, $db_user, $db_pass, $db_name);
 
